@@ -64,21 +64,25 @@ Ubicados en la carpeta `Ordenamientos` (Java), se incluyen los tres pilares del 
 3. ⏱️ **Quick Sort:** Ordenamiento por partición, optimizado para alto rendimiento en grandes conjuntos de datos.
 
 ---
-
 ## 🚀 Guías de Ejecución
+
+### 📥 Paso Previo: Descarga de Archivos de Prueba
+Para utilizar la herramienta o probar los algoritmos de este repositorio, primero debes obtener el código fuente:
+1. Descarga el archivo comprimido **`.ZIP`** (o la carpeta correspondiente) alojado en este repositorio, el cual contiene todos los **Programas del 1er y 2do parcial**.
+2. Extrae los archivos en tu computadora. Utilizarás estas carpetas en los siguientes pasos para ejecutar los programas correctamente.
 
 ### 🛠️ Para la Herramienta de Testing y Conversión
 1. Dirígete a la carpeta raíz de la herramienta interactiva.
 2. Ejecuta la clase `VentanaPrincipal.java` (o `Main.java` si aplica).
-3. Selecciona la carpeta que contiene el código que deseas probar (por ejemplo, las carpetas descargables de este repositorio). La herramienta detectará automáticamente si es C++ o Java y lanzará el entorno correspondiente.
+3. Haz clic en seleccionar carpeta y **elige una de las carpetas que descargaste y descomprimiste** en el paso anterior. La herramienta detectará automáticamente si el contenido es C++ o Java y lanzará el entorno de compilación correspondiente.
 
 ### ☕ Para los módulos individuales en Java
-1. **Importar en el IDE:** Abre IntelliJ, selecciona `File > Open` y elige la carpeta raíz del algoritmo.
-2. **Configuración de Módulos:** Asegúrate de que la carpeta `src` de cada submódulo esté marcada como **Sources Root**.
+1. **Importar en el IDE:** Abre IntelliJ, selecciona `File > Open` y elige la carpeta raíz del algoritmo que extrajiste del `.ZIP`.
+2. **Configuración de Módulos:** Asegúrate de que la carpeta `src` de cada submódulo esté marcada como **Sources Root** *(Click derecho en src > Mark Directory as > Sources Root)*.
 3. **Correr el programa:** Busca el archivo principal correspondiente al tema, haz clic derecho y selecciona **Run 'Main.java'**.
 
 ### ⚙️ Para los módulos en C++ (Punteros)
-1. Abre tu terminal o consola de comandos y navega hasta la carpeta del proyecto.
+1. Abre tu terminal o consola de comandos y navega hasta la carpeta del proyecto en C++ que extrajiste.
 2. Compila los archivos uniendo la implementación y el main:
    ```bash
    g++ main.cpp Estructura.cpp -o programa
