@@ -1,0 +1,19 @@
+{
+  "tipo": "dirigido",
+  "ciudades": [
+    {"id":1,"nombre":"Cancun","estado":"Quintana Roo"},
+    {"id":2,"nombre":"Ciudad de Mexico","estado":"CDMX"},
+    {"id":3,"nombre":"Guadalajara","estado":"Jalisco"},
+    {"id":4,"nombre":"Baja California","estado":"Baja California"},
+    {"id":5,"nombre":"Chiapas","estado":"Chiapas"}
+  ],
+  "conexiones": [
+    {"origen":"Cancun","destino":"Ciudad de Mexico,
+    {"origen":"Ciudad de Mexico","destino":"Guadalajara,
+    {"origen":"Guadalajara","destino":"Baja California,
+    {"origen":"Baja California","destino":"Ciudad de Mexico,
+    {"origen":"Ciudad de Mexico","destino":"Chiapas,
+    {"origen":"Chiapas","destino":"Cancun,
+    {"origen":"Guadalajara","destino":"Cancun
+  ]
+}
