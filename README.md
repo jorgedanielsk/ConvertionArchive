@@ -54,9 +54,18 @@ Implementaciones basadas en el principio **LIFO** (Last In, First Out) para la g
 * ⚙️ **Implementación en C++:** Desarrollo enfocado en el alto rendimiento y manejo de referencias en memoria para apilar y desapilar datos de forma controlada y segura mediante el uso de arreglos, librerías y punteros.
 
 ### 🕸️ 4. Estructuras No Lineales (Grafos y Árboles)
-Desarrolladas como tres programas independientes, estas estructuras modelan relaciones complejas, jerarquías y rutas (aplicables a cálculos de trayectorias y tiempos de traslado):
-* 📍 **Grafo (Graph):** Representación bidireccional de vértices y aristas para modelar conexiones y adyacencias de forma libre.
-* ➡️ **Dígrafo (Directed Graph):** Estructura que aplica restricciones de un solo sentido en sus conexiones, ideal para modelar flujos, dependencias o rutas específicas.
+Desarrolladas como programas independientes en C++ (POO), estas estructuras modelan relaciones y rutas complejas, integrando persistencia de datos en disco:
+
+* 📍 **Grafo (Graph):**
+  Modela conexiones bidireccionales (sin sentido fijo) entre ciudades de México.
+  * **Carga y Sincronización Automática:** Utiliza `cargarDatos()` para iniciar con 5 ciudades y 6 conexiones de ejemplo, exportándolas inmediatamente a TXT, CSV, XML y JSON. Cualquier modificación en el grafo actualiza automáticamente estos archivos.
+  * **Menú Interactivo (11 opciones):** Permite listar ciudades/conexiones, buscar rutas (directas o con nodos intermedios), gestionar el grafo (agregar/eliminar) y buscar ciudades específicas (ofreciendo crearlas si no existen), además de exportar formatos a demanda.
+
+* ➡️ **Dígrafo (Directed Graph):**
+  Contraparte conceptual del Grafo, donde las aristas tienen una dirección estricta (flujo unidireccional de A hacia B).
+  * **Análisis de Flujo:** Ideal para rutas obligatorias. Al buscar una ciudad, el sistema reporta detalladamente hacia dónde tiene salida y desde dónde le llegan conexiones.
+  * **Gestión y Persistencia:** Comparte el robusto menú de 11 opciones, la carga inicial automática y la sincronización en tiempo real con los cuatro formatos de exportación tras cada operación de alta o baja.
+
 * 🌳 **Árboles (Trees):** Implementación jerárquica (tipo Árbol Binario) diseñada para la inserción estructurada y la búsqueda eficiente de valores.
 
 ---
