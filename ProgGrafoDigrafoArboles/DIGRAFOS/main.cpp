@@ -1,5 +1,3 @@
-// Version con estilo mas estudiantil
-
 #include <iostream>
 #include <string>
 #include "Digrafo.h"

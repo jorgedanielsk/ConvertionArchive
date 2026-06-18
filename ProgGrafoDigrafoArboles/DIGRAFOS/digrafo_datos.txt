@@ -6,4 +6,4 @@ CIUDADES:
   [5] Chiapas (Chiapas)
 
 CONEXION:
-  Cancun Ciudad de Mexico  Ciudad de Mexico Guadalajara  Guadalajara Baja California  Baja California Ciudad de Mexico  Ciudad de Mexico Chiapas  Chiapas Cancun  Guadalajara Cancun
+  Cancun Ciudad de Mexico  Ciudad de Mexico Guadalajara  Guadalajara Baja California  Baja California Ciudad de Mexico  Ciudad de Mexico Chiapas  Chiapas Cancun
