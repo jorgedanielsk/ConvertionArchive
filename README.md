@@ -4,7 +4,7 @@
 
 # 📚 Estructuras de Datos, Algoritmos y Entorno de Testing
 
-*Una suite completa de estructuras de datos lineales, algoritmos de ordenamiento y una potente herramienta gráfica para su compilación, ejecución y exportación de historiales a formatos universales.*
+*Una suite completa de estructuras de datos lineales, no lineales, algoritmos de ordenamiento y una potente herramienta gráfica para su compilación, ejecución y exportación de historiales a formatos universales.*
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -53,6 +53,21 @@ Incluyen implementaciones de gestión dinámica de elementos en memoria:
 Implementaciones basadas en el principio **LIFO** (Last In, First Out) para la gestión de estados:
 * ⚙️ **Implementación en C++:** Desarrollo enfocado en el alto rendimiento y manejo de referencias en memoria para apilar y desapilar datos de forma controlada y segura mediante el uso de arreglos, librerías y punteros.
 
+### 🕸️ 4. Estructuras No Lineales (Grafos y Árboles)
+Desarrolladas como programas independientes en C++ (POO), estas estructuras modelan relaciones y rutas complejas, integrando persistencia de datos en disco:
+
+* 📍 **Grafo (Graph):**
+  Modela conexiones bidireccionales (sin sentido fijo) entre ciudades de México.
+  * **Carga y Sincronización Automática:** Utiliza `cargarDatos()` para iniciar con 5 ciudades y 6 conexiones de ejemplo, exportándolas inmediatamente a TXT, CSV, XML y JSON. Cualquier modificación en el grafo actualiza automáticamente estos archivos.
+  * **Menú Interactivo (11 opciones):** Permite listar ciudades/conexiones, buscar rutas (directas o con nodos intermedios), gestionar el grafo (agregar/eliminar) y buscar ciudades específicas (ofreciendo crearlas si no existen), además de exportar formatos a demanda.
+
+* ➡️ **Dígrafo (Directed Graph):**
+  Contraparte conceptual del Grafo, donde las aristas tienen una dirección estricta (flujo unidireccional de A hacia B).
+  * **Análisis de Flujo:** Ideal para rutas obligatorias. Al buscar una ciudad, el sistema reporta detalladamente hacia dónde tiene salida y desde dónde le llegan conexiones.
+  * **Gestión y Persistencia:** Comparte el robusto menú de 11 opciones, la carga inicial automática y la sincronización en tiempo real con los cuatro formatos de exportación tras cada operación de alta o baja.
+
+* 🌳 **Árboles (Trees):** Implementación jerárquica (tipo Árbol Binario) diseñada para la inserción estructurada y la búsqueda eficiente de valores.
+
 ---
 
 ## ⚡ Algoritmos de Ordenamiento
@@ -64,12 +79,14 @@ Ubicados en la carpeta `Ordenamientos` (Java), se incluyen los tres pilares del 
 3. ⏱️ **Quick Sort:** Ordenamiento por partición, optimizado para alto rendimiento en grandes conjuntos de datos.
 
 ---
+
 ## 🚀 Guías de Ejecución
 
 ### 📥 Paso Previo: Descarga de Archivos de Prueba
 Para utilizar la herramienta o probar los algoritmos de este repositorio, primero debes obtener el código fuente:
-1. Descarga el archivo comprimido **`.ZIP`** (o la carpeta correspondiente) alojado en este repositorio, el cual contiene todos los **Programas del 1er y 2do parcial**.
+1. Descarga el archivo comprimido **`.ZIP`** (o la carpeta correspondiente) alojado en este repositorio, el cual contiene todos los **Programas del 1er y 2do parcial**, junto con las estructuras independientes.
 2. Extrae los archivos en tu computadora. Utilizarás estas carpetas en los siguientes pasos para ejecutar los programas correctamente.
+3. 📂 **Programas Independientes:** Si buscas evaluar específicamente las Estructuras No Lineales, localiza la carpeta principal llamada **`ProgGrafoDigrafoArboles`**. En su interior se encuentran las subcarpetas individuales para cada uno de los programas correspondientes (`Grafo`, `Digrafo` y `Arboles`).
 
 ### 🛠️ Para la Herramienta de Testing y Conversión
 1. Dirígete a la carpeta raíz de la herramienta interactiva.
