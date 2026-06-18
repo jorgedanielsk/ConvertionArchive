@@ -4,7 +4,7 @@
 
 # 📚 Estructuras de Datos, Algoritmos y Entorno de Testing
 
-*Una suite completa de estructuras de datos lineales, algoritmos de ordenamiento y una potente herramienta gráfica para su compilación, ejecución y exportación de historiales a formatos universales.*
+*Una suite completa de estructuras de datos lineales, no lineales, algoritmos de ordenamiento y una potente herramienta gráfica para su compilación, ejecución y exportación de historiales a formatos universales.*
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -53,6 +53,12 @@ Incluyen implementaciones de gestión dinámica de elementos en memoria:
 Implementaciones basadas en el principio **LIFO** (Last In, First Out) para la gestión de estados:
 * ⚙️ **Implementación en C++:** Desarrollo enfocado en el alto rendimiento y manejo de referencias en memoria para apilar y desapilar datos de forma controlada y segura mediante el uso de arreglos, librerías y punteros.
 
+### 🕸️ 4. Estructuras No Lineales (Grafos y Árboles)
+Desarrolladas como tres programas independientes, estas estructuras modelan relaciones complejas, jerarquías y rutas (aplicables a cálculos de trayectorias y tiempos de traslado):
+* 📍 **Grafo (Graph):** Representación bidireccional de vértices y aristas para modelar conexiones y adyacencias de forma libre.
+* ➡️ **Dígrafo (Directed Graph):** Estructura que aplica restricciones de un solo sentido en sus conexiones, ideal para modelar flujos, dependencias o rutas específicas.
+* 🌳 **Árboles (Trees):** Implementación jerárquica (tipo Árbol Binario) diseñada para la inserción estructurada y la búsqueda eficiente de valores.
+
 ---
 
 ## ⚡ Algoritmos de Ordenamiento
@@ -64,12 +70,14 @@ Ubicados en la carpeta `Ordenamientos` (Java), se incluyen los tres pilares del 
 3. ⏱️ **Quick Sort:** Ordenamiento por partición, optimizado para alto rendimiento en grandes conjuntos de datos.
 
 ---
+
 ## 🚀 Guías de Ejecución
 
 ### 📥 Paso Previo: Descarga de Archivos de Prueba
 Para utilizar la herramienta o probar los algoritmos de este repositorio, primero debes obtener el código fuente:
-1. Descarga el archivo comprimido **`.ZIP`** (o la carpeta correspondiente) alojado en este repositorio, el cual contiene todos los **Programas del 1er y 2do parcial**.
+1. Descarga el archivo comprimido **`.ZIP`** (o la carpeta correspondiente) alojado en este repositorio, el cual contiene todos los **Programas del 1er y 2do parcial**, junto con las estructuras independientes.
 2. Extrae los archivos en tu computadora. Utilizarás estas carpetas en los siguientes pasos para ejecutar los programas correctamente.
+3. 📂 **Programas Independientes:** Si buscas evaluar específicamente las Estructuras No Lineales, localiza la carpeta principal llamada **`ProgGrafoDigrafoArboles`**. En su interior se encuentran las subcarpetas individuales para cada uno de los programas correspondientes (`Grafo`, `Digrafo` y `Arboles`).
 
 ### 🛠️ Para la Herramienta de Testing y Conversión
 1. Dirígete a la carpeta raíz de la herramienta interactiva.
