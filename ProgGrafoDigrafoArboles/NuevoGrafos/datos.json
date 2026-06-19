@@ -1,0 +1,122 @@
+{
+  "grafo": {
+    "nodos": [
+      {
+        "id": 0,
+        "etiqueta": "Acapulco"
+      },
+      {
+        "id": 1,
+        "etiqueta": "Caseta La Venta"
+      },
+      {
+        "id": 2,
+        "etiqueta": "Tierra Colorada"
+      },
+      {
+        "id": 3,
+        "etiqueta": "Caseta Palo Blanco"
+      },
+      {
+        "id": 4,
+        "etiqueta": "Chilpancingo"
+      },
+      {
+        "id": 5,
+        "etiqueta": "Caseta Paso Morelos"
+      },
+      {
+        "id": 6,
+        "etiqueta": "Puente de Ixtla"
+      },
+      {
+        "id": 7,
+        "etiqueta": "Caseta Alpuyeca"
+      },
+      {
+        "id": 8,
+        "etiqueta": "Cuernavaca"
+      },
+      {
+        "id": 9,
+        "etiqueta": "Caseta Tlalpan"
+      },
+      {
+        "id": 10,
+        "etiqueta": "Ciudad de Mexico"
+      }
+    ],
+    "conexiones": [
+      {
+        "nodoInicial": 0,
+        "nodoFinal": 1,
+        "aristaConexion": "Acapulco-LaVenta",
+        "tiempo": 20.0,
+        "costo": 171.0
+      },
+      {
+        "nodoInicial": 1,
+        "nodoFinal": 2,
+        "aristaConexion": "LaVenta-TierraColorada",
+        "tiempo": 30.0,
+        "costo": 0.0
+      },
+      {
+        "nodoInicial": 2,
+        "nodoFinal": 3,
+        "aristaConexion": "TierraColorada-PaloBlanco",
+        "tiempo": 20.0,
+        "costo": 190.0
+      },
+      {
+        "nodoInicial": 3,
+        "nodoFinal": 4,
+        "aristaConexion": "PaloBlanco-Chilpancingo",
+        "tiempo": 20.0,
+        "costo": 0.0
+      },
+      {
+        "nodoInicial": 4,
+        "nodoFinal": 5,
+        "aristaConexion": "Chilpancingo-PasoMorelos",
+        "tiempo": 50.0,
+        "costo": 209.0
+      },
+      {
+        "nodoInicial": 5,
+        "nodoFinal": 6,
+        "aristaConexion": "PasoMorelos-PuenteIxtla",
+        "tiempo": 25.0,
+        "costo": 0.0
+      },
+      {
+        "nodoInicial": 6,
+        "nodoFinal": 7,
+        "aristaConexion": "PuenteIxtla-Alpuyeca",
+        "tiempo": 20.0,
+        "costo": 100.0
+      },
+      {
+        "nodoInicial": 7,
+        "nodoFinal": 8,
+        "aristaConexion": "Alpuyeca-Cuernavaca",
+        "tiempo": 25.0,
+        "costo": 0.0
+      },
+      {
+        "nodoInicial": 8,
+        "nodoFinal": 9,
+        "aristaConexion": "Cuernavaca-Tlalpan",
+        "tiempo": 20.0,
+        "costo": 156.0
+      },
+      {
+        "nodoInicial": 9,
+        "nodoFinal": 10,
+        "aristaConexion": "Tlalpan-CDMX",
+        "tiempo": 10.0,
+        "costo": 0.0
+      }
+    ]
+  }
+}
