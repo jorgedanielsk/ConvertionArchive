@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grafo>
+  <nodos>
+    <nodo><id>0</id><etiqueta>Acapulco</etiqueta></nodo>
+    <nodo><id>1</id><etiqueta>Caseta La Venta</etiqueta></nodo>
+    <nodo><id>2</id><etiqueta>Tierra Colorada</etiqueta></nodo>
+    <nodo><id>3</id><etiqueta>Caseta Palo Blanco</etiqueta></nodo>
+    <nodo><id>4</id><etiqueta>Chilpancingo</etiqueta></nodo>
+    <nodo><id>5</id><etiqueta>Caseta Paso Morelos</etiqueta></nodo>
+    <nodo><id>6</id><etiqueta>Puente de Ixtla</etiqueta></nodo>
+    <nodo><id>7</id><etiqueta>Caseta Alpuyeca</etiqueta></nodo>
+    <nodo><id>8</id><etiqueta>Cuernavaca</etiqueta></nodo>
+    <nodo><id>9</id><etiqueta>Caseta Tlalpan</etiqueta></nodo>
+    <nodo><id>10</id><etiqueta>Ciudad de Mexico</etiqueta></nodo>
+  </nodos>
+  <rutas>
+    <conexiones>
+      <conexionNodo2Nodo>
+        <nodoInicial>0</nodoInicial><nodoFinal>1</nodoFinal>
+        <aristaConexion>Acapulco-LaVenta</aristaConexion>
+        <tiempo>20.0</tiempo><costo>171.0</costo>
+      </conexionNodo2Nodo>
+
+
+      <conexionNodo2Nodo>
+        <nodoInicial>0</nodoInicial><nodoFinal>0</nodoFinal>
+        <aristaConexion>mexicotoluca</aristaConexion>
+        <tiempo>20.0</tiempo><costo>171.0</costo>
+      </conexionNodo2Nodo>      <conexionNodo2Nodo>
+        <nodoInicial>1</nodoInicial><nodoFinal>1</nodoFinal>
+        <aristaConexion>AcapulcoAcapulco-LaVenta</aristaConexion>
+        <tiempo>20.0</tiempo><costo>171.0</costo>
+      </conexionNodo2Nodo>      <conexionNodo2Nodo>
+        <nodoInicial>0</nodoInicial><nodoFinal>1</nodoFinal>
+        <aristaConexion>AcapulcoAcapulcoAcapulco-LaVenta</aristaConexion>
+        <tiempo>20.0</tiempo><costo>171.0</costo>
+      </conexionNodo2Nodo>
+
+
+
+      <conexionNodo2Nodo>
+        <nodoInicial>1</nodoInicial><nodoFinal>2</nodoFinal>
+        <aristaConexion>LaVenta-TierraColorada</aristaConexion>
+        <tiempo>30.0</tiempo><costo>0.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>2</nodoInicial><nodoFinal>3</nodoFinal>
+        <aristaConexion>TierraColorada-PaloBlanco</aristaConexion>
+        <tiempo>20.0</tiempo><costo>190.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>3</nodoInicial><nodoFinal>4</nodoFinal>
+        <aristaConexion>PaloBlanco-Chilpancingo</aristaConexion>
+        <tiempo>20.0</tiempo><costo>0.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>4</nodoInicial><nodoFinal>5</nodoFinal>
+        <aristaConexion>Chilpancingo-PasoMorelos</aristaConexion>
+        <tiempo>50.0</tiempo><costo>209.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>5</nodoInicial><nodoFinal>6</nodoFinal>
+        <aristaConexion>PasoMorelos-PuenteIxtla</aristaConexion>
+        <tiempo>25.0</tiempo><costo>0.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>6</nodoInicial><nodoFinal>7</nodoFinal>
+        <aristaConexion>PuenteIxtla-Alpuyeca</aristaConexion>
+        <tiempo>20.0</tiempo><costo>100.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>7</nodoInicial><nodoFinal>8</nodoFinal>
+        <aristaConexion>Alpuyeca-Cuernavaca</aristaConexion>
+        <tiempo>25.0</tiempo><costo>0.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>8</nodoInicial><nodoFinal>9</nodoFinal>
+        <aristaConexion>Cuernavaca-Tlalpan</aristaConexion>
+        <tiempo>20.0</tiempo><costo>156.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>9</nodoInicial><nodoFinal>10</nodoFinal>
+        <aristaConexion>Tlalpan-CDMX</aristaConexion>
+        <tiempo>10.0</tiempo><costo>0.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>0</nodoInicial><nodoFinal>2</nodoFinal>
+        <aristaConexion>Acapulco-TierraColorada-Libre</aristaConexion>
+        <tiempo>70.0</tiempo><costo>0.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>2</nodoInicial><nodoFinal>4</nodoFinal>
+        <aristaConexion>TierraColorada-Chilpancingo-Libre</aristaConexion>
+        <tiempo>70.0</tiempo><costo>0.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>4</nodoInicial><nodoFinal>6</nodoFinal>
+        <aristaConexion>Chilpancingo-PuenteIxtla-Libre</aristaConexion>
+        <tiempo>100.0</tiempo><costo>0.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>6</nodoInicial><nodoFinal>8</nodoFinal>
+        <aristaConexion>PuenteIxtla-Cuernavaca-Libre</aristaConexion>
+        <tiempo>60.0</tiempo><costo>0.0</costo>
+      </conexionNodo2Nodo>
+      <conexionNodo2Nodo>
+        <nodoInicial>8</nodoInicial><nodoFinal>10</nodoFinal>
+        <aristaConexion>Cuernavaca-CDMX-Libre</aristaConexion>
+        <tiempo>60.0</tiempo><costo>0.0</costo>
+      </conexionNodo2Nodo>
+    </conexiones>
+  </rutas>
+</grafo>
